@@ -1,0 +1,34 @@
+{
+    "name": "activity",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "set VUE_APP_BUILD_MODE=230&& vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "build:W230": "set VUE_APP_BUILD_MODE=230&& vue-cli-service build",
+        "build:L230": "VUE_APP_BUILD_MODE=230  vue-cli-service build",
+        "build:W232": "set VUE_APP_BUILD_MODE=232&& vue-cli-service build",
+        "build:L232": "VUE_APP_BUILD_MODE=232 vue-cli-service build",
+        "build:docker": "VUE_APP_BUILD_MODE=docker vue-cli-service build",
+        "build:Lout": "VUE_APP_BUILD_MODE=outtest vue-cli-service build",
+        "build:wout": "set VUE_APP_BUILD_MODE=outtest&& vue-cli-service build",
+        "build:Lformal": "VUE_APP_BUILD_MODE=production vue-cli-service build"
+    },
+    "dependencies": {
+        "axios": "0.18.0",
+        "element-ui": "2.4.11",
+        "es6-promise-polyfill": "1.2.0",
+        "qs": "6.6.0",
+        "vue": "2.5.17",
+        "vue-i18n": "5.0.3",
+        "vue-router": "3.0.2",
+        "vuex": "3.0.1"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "3.2.0",
+        "@vue/cli-service": "3.2.0",
+        "less": "3.9.0",
+        "less-loader": "^4.1.0",
+        "vue-template-compiler": "2.5.17"
+    }
+}
