@@ -15,7 +15,7 @@
         "build:Lformal": "VUE_APP_BUILD_MODE=production vue-cli-service build"
     },
     "dependencies": {
-        "axios": "0.18.0",
+        "axios": "0.21.1",
         "element-ui": "2.4.11",
         "es6-promise-polyfill": "1.2.0",
         "qs": "6.6.0",
